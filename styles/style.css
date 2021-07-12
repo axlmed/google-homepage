@@ -1,0 +1,101 @@
+ul {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+li {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.farRightButton:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+.farRightButton {
+    background-color: rgb(56, 115, 241);
+    border-radius: 5px;
+    border: none;
+    float: right;
+    color: white;
+    padding: 2px 8px 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    align-items: flex-end;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.material-icons-round {
+    font-family: 'Material Icons';
+    font-size: 24px;
+    line-height: 1;
+    float: right;
+
+}
+#info, #shop {
+    font-size: 13px;
+}
+#pics, #mail {
+    float: right;
+    font-size: 13px;
+    color: black;
+    
+}
+#googleLogo {
+    display: block;
+    margin: 100px auto auto;   
+}
+
+#searchBar{
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 1px;  
+    border-color: darkgrey;
+    padding: 15px 200px 15px 200px;  
+    transition-duration: 0.3s;  
+    text-align:left;
+    font-size: 15px;
+    width: auto;
+    display: table-cell   
+}
+#searchBar:focus {
+    outline: none;
+}
+#searchBar:hover {
+    background-color:transparent;
+    color: black; 
+    box-shadow: 0 8px 16px 0 black;
+}
+.search span {
+    position: absolute;
+    top: 284px;
+    left: 365px;
+    right: auto;
+    bottom: auto;
+    color: grey;
+    
+}
+.form {
+    text-align: center;
+}
+.finalIcon {
+    position: absolute;
+    left: 895px;
+    top: 284px;
+
+}
+.clickMe {
+    border: unset;
+    padding: 10px;
+    color: grey;
+    
+}.links {
+    outline: none;
+    color: black;
+    text-decoration: none;
+}
